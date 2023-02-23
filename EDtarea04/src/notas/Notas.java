@@ -9,6 +9,8 @@ public class Notas {
 	/**
 	 * @author Core
 	 * @param args
+	 * @version 1
+	 * @since 23-02-2023
 	 * Metodo que se basa en que el usuario nos pase una nota, y convertir esa nota en una calificación
 	 * para luego imprimirla por pantalla.
 	 */
@@ -33,18 +35,18 @@ reader.close();
  * @return
  * @deprecated Use {@link calificaciones.califica#califica(int)} instead
  * Método restante de la evolución de la tarea.
- */
-//public static String cali(int nota) {
-//	return calificaciones.califica.califica(nota);
-//}
-
+ *
+public static String cali(int nota) {
+	return calificaciones.califica.califica(nota);
+}
+*/
 /**
  * @param num_nota
  * @return
  * @deprecated Use {@link califica#califica(int)} instead
  * Método restante de la evolución de la tarea.
- */
-//public static String califica(int num_nota) {
-//	return califica.califica(num_nota);
-//}
+ 
+public static String califica(int num_nota) {
+	return califica.califica(num_nota);
+}*/
 }
