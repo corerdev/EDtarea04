@@ -4,9 +4,13 @@ public class califica {
 
 	/**
 	 * @param num_nota
-	 * @return
+	 * @return calificacion en forma de string según la nota pasada
+	 * @author Core
+	 * @since 23/02/2023
+	 * Este es el metodo que se ha ido generando a lo largo de la tarea.
+	 * Tiene como objetivo devolver un string que luego se imprimira, basado en la nota que se ha pasado.
 	 */
-	public static String califica(int num_nota) {
+	public static String calificadios(int num_nota) {
 		String resultado;
 		if (num_nota >= 0 && num_nota < 5)
 		resultado = "Suspenso";
@@ -20,5 +24,5 @@ public class califica {
 		resultado = "El valor de la calificación introducida no es correcta";
 		return resultado;
 	}
-
+	
 }
